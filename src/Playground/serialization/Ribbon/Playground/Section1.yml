@@ -1,0 +1,91 @@
+﻿---
+ID: "710ffc6b-c0a6-4788-862c-cbd2bca40741"
+Parent: "5a2f6a49-d10b-4972-9925-3da9f012ca68"
+Template: "8f3d8f9b-2d76-4ace-803f-35415d2b230a"
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Playground/Section1
+DB: core
+SharedFields:
+- ID: "8bb9a5e3-cae8-49c6-b830-258a51d970c9"
+  Hint: ID
+  Value: Section1Chunk
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 37
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{B8CC30CD-725A-4353-9EA6-CD9832CB3996}"
+          par="Id=Chunk"
+          uid="{4DEE4C60-AC6A-4D6E-91E5-A0E1E980414B}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Egenskaber
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162541Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Aktiver
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Fähigkeiten
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162707Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Aktivieren
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20070313T122724
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Section1
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 特性
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162828Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: 機能

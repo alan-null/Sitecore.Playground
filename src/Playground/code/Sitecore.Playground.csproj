@@ -66,8 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Playground\Sitecore.Playground.Serialization.config" />
+    <None Include="App_Config\Include\zzz.DevSettings.config.example" />
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\local.pubxml" />
+    <None Include="Properties\PublishProfiles\playground.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,106 @@
+﻿---
+ID: "2a625c6c-dff3-49d1-9ba1-02966b121155"
+Parent: "710ffc6b-c0a6-4788-862c-cbd2bca40741"
+Template: "abc069d5-3627-4a20-841e-d199b0eb4957"
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Playground/Section1/Editable
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 49
+- ID: "cc65212f-c5f2-437a-965e-7f0690a82f21"
+  Hint: ID
+  Value: EditableRibbonButton
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{BDE651C9-7988-4950-8E01-EA80106563A2}"
+          par="Click=trigger%3abutton%3acheck&amp;Command=EnableEditing&amp;RegistryKey=%2fCurrent_User%2fPage+Editor%2fCapability%2fEdit&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fEnableEditing.js&amp;PostponedCall=0&amp;QueryKey=sc_wede"
+          uid="{62E43DB7-25DA-4866-9573-A3F11D865D4D}" />
+      </d>
+    </r>
+- ID: "fa8ffab1-6269-480d-b746-f6bed5a178a2"
+  Hint: Click
+  Value: "webedit:toggleeditcapability"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Redigerbar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162519Z
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: Aktiver eller deaktiver indholdsredigering.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: Redigering
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Editierbar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162641Z
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: Aktivieren oder deaktivieren Sie die Content Bearbeitung.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: Bearbeitung
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100915T143000
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: Enable or disable content editing.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: Editing
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 編集可能
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162801Z
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: コンテンツの編集を有効または無効にする
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: コンテンツ編集

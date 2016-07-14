@@ -1,0 +1,106 @@
+﻿---
+ID: "14af5110-fb75-47d0-aaaf-e17512c57cf8"
+Parent: "7c2ba557-6552-4407-ba73-bd06fc20a1b8"
+Template: "abc069d5-3627-4a20-841e-d199b0eb4957"
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Playground/Section2/Show Navigation bar
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "cc65212f-c5f2-437a-965e-7f0690a82f21"
+  Hint: ID
+  Value: ShowNavigationBarRibbonButton
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{BDE651C9-7988-4950-8E01-EA80106563A2}"
+          par="Click=trigger%3abutton%3acheck&amp;Command=ShowNavigationBar&amp;RegistryKey=%2fCurrent_User%2fPage+Editor%2fShow%2fTreecrumb&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fShowNavigationBar.js&amp;PostponedCall=0"
+          uid="{7996FBF1-10B4-457F-B2CD-E120559F08DC}" />
+      </d>
+    </r>
+- ID: "fa8ffab1-6269-480d-b746-f6bed5a178a2"
+  Hint: Click
+  Value: "webedit:toggletreecrumb"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Vis navigationsbjælken
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162520Z
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: Vis eller skjul Navigationsbjælken.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: Navigationsbjælke
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Navigationsleiste anzeigen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162642Z
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: Navigation Bar anzeigen oder verstecken.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: Navigation Bar
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100609T142400
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: Show or hide the Navigation bar.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: Navigation bar
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ナビゲーション バーの表示
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162803Z
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: ナビゲーション バーを表示または非表示にします
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: ナビゲーション バー

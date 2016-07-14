@@ -1,0 +1,94 @@
+﻿---
+ID: "7c2ba557-6552-4407-ba73-bd06fc20a1b8"
+Parent: "5a2f6a49-d10b-4972-9925-3da9f012ca68"
+Template: "8f3d8f9b-2d76-4ace-803f-35415d2b230a"
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Playground/Section2
+DB: core
+SharedFields:
+- ID: "8bb9a5e3-cae8-49c6-b830-258a51d970c9"
+  Hint: ID
+  Value: Section2Chunk
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 43
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: "ar|sitecore\Sitecore Client Developing|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Translating|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Maintaining|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Designing|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Users|pe|!*|pd|!*|ar|sitecore\Sitecore Client Authoring|pe|+item:read|pd|+item:read|"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{B8CC30CD-725A-4353-9EA6-CD9832CB3996}"
+          par="Id=Chunk"
+          uid="{A29972B0-2C35-4B3B-99BA-E77F1F12C014}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Vis
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162524Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Vis
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Anzeigen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162648Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Anzeigen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20070313T122700
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Section2
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 表示
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162808Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: 表示

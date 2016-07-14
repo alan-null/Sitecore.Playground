@@ -1,0 +1,100 @@
+﻿---
+ID: "9bfa1b27-5d36-41a3-b5c2-fbbd017c2891"
+Parent: "710ffc6b-c0a6-4788-862c-cbd2bca40741"
+Template: "abc069d5-3627-4a20-841e-d199b0eb4957"
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Playground/Section1/Field validation
+DB: core
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{BDE651C9-7988-4950-8E01-EA80106563A2}"
+          par="Click=trigger%3abutton%3acheck&amp;Command=EnableFieldsValidation&amp;RegistryKey=%2fCurrent_User%2fPage+Editor%2fCapability%2fFieldsValidation&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fEnableFieldsValidation.js&amp;PostponedCall=0"
+          uid="{B94AB737-B0D0-43C5-BDEB-79B28731ABAF}" />
+      </d>
+    </r>
+- ID: "fa8ffab1-6269-480d-b746-f6bed5a178a2"
+  Hint: Click
+  Value: "webedit:hidecontrol"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Feltvalidering
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162526Z
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: Slå fortløbende feltvalidering til eller fra.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: Feltvalidering
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Feldvalidierungen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162649Z
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: Ununterbrochene Feldvalidierungen aktivieren oder deaktivieren.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: Feldvalidierungen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 00010101T000000
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: Enable or disable continuous field validation.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: Field validation
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フィールドの検証
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162810Z
+    - ID: "455d570d-77b9-4aa6-b84e-d7dcab7079c0"
+      Hint: Tooltip
+      Value: 継続的なフィールドの検証を有有効化または無効化する
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c7a8b822-2b9d-4e1d-9e5f-82326fcbbfc1"
+      Hint: Header
+      Value: フィールドの検証

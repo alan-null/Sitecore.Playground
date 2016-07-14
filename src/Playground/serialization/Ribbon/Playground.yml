@@ -1,0 +1,97 @@
+﻿---
+ID: "5a2f6a49-d10b-4972-9925-3da9f012ca68"
+Parent: "570a52b6-6755-461a-8052-5b95ef766f74"
+Template: "ec6d62a5-5d00-4329-8958-8ac1ad100ebb"
+Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Playground
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/keyboard.png
+- ID: "12c1ceb4-f549-472a-97ed-99bff70eb84e"
+  Hint: ID
+  Value: PlaygroundStrip
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: "ar|sitecore\Sitecore Limited Page Editor|pe|-item:read|pd|-item:read|"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{2AA9FC5A-9F89-4508-A210-5282E9B58468}"
+          par="Id=Strip"
+          uid="{729A1124-E714-47D0-A346-834B071F69AA}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Vis
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162541Z
+    - ID: "5453dc07-6a17-48ba-8d05-17db90a2e795"
+      Hint: Header
+      Value: Vis
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Ansicht
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162708Z
+    - ID: "5453dc07-6a17-48ba-8d05-17db90a2e795"
+      Hint: Header
+      Value: Ansicht
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100610T154259
+    - ID: "5453dc07-6a17-48ba-8d05-17db90a2e795"
+      Hint: Header
+      Value: Playground
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 表示
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T162828Z
+    - ID: "5453dc07-6a17-48ba-8d05-17db90a2e795"
+      Hint: Header
+      Value: 表示
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
