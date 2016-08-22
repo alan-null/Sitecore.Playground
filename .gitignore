@@ -245,3 +245,4 @@ ModelManifest.xml
 .fake/
 src/Playground/code/App_Config/Include/zzz.DevSettings.config
 libs/
+DevSettings.config
