@@ -48,6 +48,16 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Logging, Version=1.2.0.30715, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\Sitecore.Logging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -68,6 +78,7 @@
   <ItemGroup>
     <Content Include="App_Config\Include\Playground\Sitecore.Playground.Serialization.config" />
     <None Include="App_Config\Include\zzz.DevSettings.config.example" />
+    <Content Include="App_Config\Include\Playground\Sitecore.Playground.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\playground.pubxml" />
     <None Include="Web.Debug.config">
@@ -81,6 +92,8 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logging\LogLevelMap.cs" />
+    <Compile Include="Logging\CustomSitecoreLogFileAppender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
