@@ -20,7 +20,7 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
           id="{BDE651C9-7988-4950-8E01-EA80106563A2}"
-          par="Click=trigger%3abutton%3acheck&amp;Command=ShowNavigationBar&amp;RegistryKey=%2fCurrent_User%2fPage+Editor%2fShow%2fTreecrumb&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fShowNavigationBar.js&amp;PostponedCall=0"
+          par="Click=trigger%3abutton%3acheck&amp;Command=ShowPlaygroundNavigationBar&amp;RegistryKey=%2fCurrent_User%2fPage+Editor%2fShow%2fTreecrumb&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fPlayground%2fExperienceEditor%2fCommands%2fShowPlaygroundNavigationBar.js&amp;PostponedCall=0"
           uid="{7996FBF1-10B4-457F-B2CD-E120559F08DC}" />
       </d>
     </r>

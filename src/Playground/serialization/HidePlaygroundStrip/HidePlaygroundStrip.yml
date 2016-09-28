@@ -1,0 +1,33 @@
+﻿---
+ID: "9e2cc218-6423-48c2-9ab8-6173d59e5246"
+Parent: "86bad2ca-4321-4f44-8080-8d816268dccf"
+Template: "8861a098-f3cd-4fd3-9557-0bc6c33d738e"
+Path: /sitecore/client/Applications/ExperienceEditor/Pipelines/InitializePageEdit/HidePlaygroundStrip
+DB: core
+SharedFields:
+- ID: "20d0bb88-0649-4714-a6dd-585dd4ca5b4e"
+  Hint: ProcessorFile
+  Value: /sitecore/shell/client/Sitecore/Playground/ExperienceEditor/Pipelines/InitializePageEdit/HidePlaygroundStrip.js
+- ID: "9e91baa8-5cac-48e0-8ab2-04219118bf08"
+  Hint: ProcessorName
+  Value: hidePlaygroundStrip
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: GetCommands
+  Versions:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140718T085217Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

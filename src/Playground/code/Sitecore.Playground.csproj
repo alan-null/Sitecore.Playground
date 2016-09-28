@@ -77,6 +77,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Playground\Sitecore.Playground.Serialization.config" />
+    <Content Include="sitecore\shell\client\Sitecore\Playground\ExperienceEditor\Commands\ShowPlaygroundNavigationBar.js" />
+    <Content Include="sitecore\shell\client\Sitecore\Playground\ExperienceEditor\Pipelines\InitializePageEdit\HidePlaygroundStrip.js" />
     <None Include="App_Config\Include\zzz.DevSettings.config.example" />
     <Content Include="App_Config\Include\Playground\Sitecore.Playground.config" />
     <None Include="packages.config" />
