@@ -43,6 +43,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Kamsar.WebConsole">
       <HintPath>..\..\..\packages\Kamsar.WebConsole.1.2.2.0\lib\net40\Kamsar.WebConsole.dll</HintPath>
       <Private>True</Private>
@@ -90,6 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Foundation\Sitecore.Playground.Serialization.Serialization.config" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
@@ -117,6 +123,10 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Predicates\CustomPresetTreeRoot.cs" />
+    <Compile Include="Predicates\Exclusions\TemplateBasedPresetExclusion.cs" />
+    <Compile Include="Predicates\IPresetItemExclusion.cs" />
+    <Compile Include="Predicates\CustomSerializationPresetPredicate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
