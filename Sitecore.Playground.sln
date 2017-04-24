@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Playground", "src\Playground\code\Sitecore.Playground.csproj", "{BB935824-0A1C-4F29-A656-0F9EA85C419E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Playground.Serialization", "src\Serialization\code\Sitecore.Playground.Serialization.csproj", "{58999F11-DC76-4F3A-A81C-091EFCC465C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{07D3FC7F-CA34-4A46-90C7-DCC7A3980324}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XA.WorkaroundFactory", "XA.WorkaroundFactory", "{007460C8-6D36-4AED-B94F-546AD30EAFBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LookupNameLookupValue", "LookupNameLookupValue", "{99577126-D720-4D7B-8FC4-6984619FDB96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.XA.WorkaroundFactory.LookupNameLookupValue", "src\Foundation\XA.WorkaroundFactory\LookupNameLookupValue\code\Sitecore.XA.WorkaroundFactory.LookupNameLookupValue.csproj", "{66999F11-DC76-4F3A-A81C-091EFCC465C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +29,17 @@ Global
 		{58999F11-DC76-4F3A-A81C-091EFCC465C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58999F11-DC76-4F3A-A81C-091EFCC465C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58999F11-DC76-4F3A-A81C-091EFCC465C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66999F11-DC76-4F3A-A81C-091EFCC465C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66999F11-DC76-4F3A-A81C-091EFCC465C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66999F11-DC76-4F3A-A81C-091EFCC465C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66999F11-DC76-4F3A-A81C-091EFCC465C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{007460C8-6D36-4AED-B94F-546AD30EAFBE} = {07D3FC7F-CA34-4A46-90C7-DCC7A3980324}
+		{99577126-D720-4D7B-8FC4-6984619FDB96} = {007460C8-6D36-4AED-B94F-546AD30EAFBE}
+		{66999F11-DC76-4F3A-A81C-091EFCC465C7} = {99577126-D720-4D7B-8FC4-6984619FDB96}
 	EndGlobalSection
 EndGlobal
